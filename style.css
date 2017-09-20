@@ -1,0 +1,137 @@
+.flex-container-1 {
+    display:flex;
+}
+.flex-item-1 {
+    height:200px;
+    margin:10px;
+    background-color:lightblue;
+    width: 50%;
+}
+.flex-container-2 {
+    display:flex;
+}
+.flex-item-2 {
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    width:25%;
+}
+.flex-item-2b {
+    height: 200px;
+    margin: 10px;
+    background-color:red;
+    width:50%;  
+}
+.flex-container-3 {
+    display:flex;
+}
+.flex-item-3 {
+    height: 200px;
+    margin: 10px;
+    background-color:purple;
+    width:37.5%;
+}
+.flex-item-3b {
+    height: 200px;
+    margin: 10px;
+    background-color:purple;
+    width:25%;  
+}
+.flex-container-4 {
+    display:flex;
+    justify-content: space-between;
+}
+.flex-item-4 {
+    height: 200px;
+    margin: 10px;
+    background-color:green;
+    width:33%;    
+}
+.flex-container-5 {
+    display:flex;
+    justify-content: ;
+}
+.flex-item-5 {
+    height: 200px;
+    margin: 10px;
+    background-color:yellow;
+    width:25%;    
+}
+.flex-item-5b {
+    height: 200px;
+    margin: 10px;
+    background-color:yellow;
+    width:25%;   
+    margin-left: 25%; 
+}
+
+.header {
+    height: 100px;
+    background-color: red;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header {
+    height: 100px;
+    background-color: red;
+
+}
+.content {
+    display: flex;
+ 
+    height: 100%;
+}
+html {
+    padding:0; margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.body2 {
+padding:0; margin:0;
+display:flex;
+flex-direction:column;
+height:100%;
+width:100%;
+}
+.flex-item-a {
+background-color: lightgray;
+width: 75%;
+margin: 10px;
+border: 1px solid gray;
+
+}
+.flex-item-b {
+    background-color:lightgray;
+    width: 25%;
+    margin:10px;
+    border: 1px solid gray;
+       }
+
+.footer {
+    height: 200px;
+    background-color: darkgray;
+}
+
+.body3 {
+    padding:0; margin:0;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+.flex-container-c {
+    display:flex;
+    width:900px;
+}
+.flex-item-c {
+    height: 200px;
+    margin: 10px;
+    background-color: red;
+    width:33%;
+}
